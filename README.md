@@ -46,7 +46,7 @@ export PATH=$PATH:/Volumes/dev2_photon/opt/gradle/gradle-4.10.1/bin
 + `$ npm ci`
 + `$ cordova prepare`
 + `$ ng build --watch --base-href . --output-path cordova/www/`
-In new terminal: `$ cordova run android` 
++ In new terminal: `$ cordova run android` 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
