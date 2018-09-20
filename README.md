@@ -9,16 +9,16 @@ You do not need cocoapods to install for iOS (Option)
 + JDK
 + Android Studio (sdkmanager, avdmanager)
 + Gradel
-+ XCode
++ XCode (Optinal for iOS devices)
 
 ## Node tools:
-+ nvm (Virtualisation, use different node version and tools fit with that node version)
++ nvm (Virtualisation, use different node version and tools fit with that node version) (Optinal for iOS devices)
 + node v8.11.3
 + @angular/cli@6.2.1
 + bower@1.8.4
 + cordova@8.0.0
-+ cordova-simulate@0.4.0
-+ ios-deploy@1.9.3
++ cordova-simulate@0.4.0 (Optinal plugin debugger)
++ ios-deploy@1.9.3 (Optinal for iOS devices)
 + npm@6.2.0
 
 ## Example: .bash_profile
