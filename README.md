@@ -41,12 +41,12 @@ export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Ho
 export PATH=$PATH:/Volumes/dev2_photon/opt/gradle/gradle-4.10.1/bin
 
 ## Development:
-$ npm ci
-$ cd cordova/
-$ npm ci
-$ cordova prepare
-$ ng build --watch --base-href . --output-path cordova/www/
-In new terminal: cordova$ cordova run android 
+$ `npm ci`
+$ `cd cordova/`
+$ `npm ci`
+$ `cordova prepare`
+$ `ng build --watch --base-href . --output-path cordova/www/`
+In new terminal: cordova$ cordova run android` 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
