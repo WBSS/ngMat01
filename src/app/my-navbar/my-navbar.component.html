@@ -14,7 +14,7 @@
       <a mat-list-item routerLink="/third-page">Third Page</a>
     </mat-nav-list>
   </mat-sidenav>
-  <mat-sidenav-content style="border: solid green">
+  <mat-sidenav-content style="border: solid green" layout-margin="">
     <mat-toolbar color="primary">
       <button
         type="button"
@@ -24,6 +24,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
+      <span>&nbsp;&nbsp;&nbsp;</span>
       <span>ngMat01</span>
     </mat-toolbar>
     <!-- Add Content Here -->

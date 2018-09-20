@@ -24,6 +24,7 @@ import {MyTableComponent} from './my-table/my-table.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
 import { ThirdPageComponent } from './third-page/third-page.component';
+import {APP_BASE_HREF} from '@angular/common';
 
 const appRoutes: Routes = [
   { path: 'first-page', component: FirstPageComponent },
@@ -59,7 +60,7 @@ const appRoutes: Routes = [
     MatSortModule,
     RouterModule.forRoot(appRoutes),
   ],
-  providers: [],
+  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule {
